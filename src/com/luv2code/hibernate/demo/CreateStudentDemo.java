@@ -9,6 +9,8 @@ import com.luv2code.hibernate.demo.entity.Student;
 public class CreateStudentDemo {
 
 	public static void main(String[] args) {
+		//this is my second commit
+		//this will be shown 
 	//create session factory
 		SessionFactory factory=new Configuration()
 		                      .configure("hibernate.cfg.xml")

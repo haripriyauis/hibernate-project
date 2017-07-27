@@ -12,6 +12,8 @@ public class CreateStudentDemo {
 		//this is my second commit
 		//this will be shown 
 	//create session factory
+		
+		//this is third commit
 		SessionFactory factory=new Configuration()
 		                      .configure("hibernate.cfg.xml")
 		                      .addAnnotatedClass(Student.class)
